@@ -26,11 +26,11 @@
 
     
     {% include 'toast.html' %}
-    {% include 'navbar.html' %}
-    <main>
-        {% block content %}{% endblock %}
-    </main>
+    {% include 'navigation.html' %}
+    {% block content %}{% endblock %}
     {% include 'footer.html' %}
+
+
 
     <script src="{% static 'js/scripts.js ' %}"></script>
 
